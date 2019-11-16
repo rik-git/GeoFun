@@ -33,7 +33,7 @@ KMLBuilder uses a number of open source projects to work properly:
 
 Install the dependencies and the module as you would normally:
 ```python
-pip install KMLBuilder
+pip install GeoFun
 ```
 
 
