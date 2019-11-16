@@ -40,7 +40,7 @@ pip install KMLBuilder
 Usage as follows:
 
 ```python
-import KMLBuilder
+from GeoFun.KMLBuilder import CreateKmlFile
 import pandas as pd
 
 
@@ -55,12 +55,12 @@ img_folder = "images/"
 kml_output = "kml/Apulia/"
 
 # 4) and ingest everything into the CreateKmlFile() function: 
-KMLBuilder.CreateKmlFile(kml_output,
-                        coords_df=gps_coords_df, 
-                        img_input_folder=img_folder, 
-                        resize_opt=100, # This is the resize filesize (in KB); can also be expressed as a 0-1 for percentage
-                        zip_files=True, # whether to zip the KML folder
-                        verbose=False) # whether to make the process verbose or not
+CreateKmlFile(kml_output,
+              coords_df=gps_coords_df, 
+              img_input_folder=img_folder, 
+              resize_opt=100, # This is the resize filesize (in KB); can also be expressed as a 0-1 for percentage
+              zip_files=True, # whether to zip the KML folder
+              verbose=False) # whether to make the process verbose or not
 ```
 
 ### Todos
