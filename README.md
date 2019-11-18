@@ -1,3 +1,7 @@
+# GeoFun
+
+GeoFun is a package designed to manage and process geo-data (GPS coordinates, geo-located images, etc.), and to produce a series of output such as KML files. 
+
 # KMLBuilder
 
 KMLBuilder is a module designed to ingest user-provided GPS coordinates and/or geo-located images, and to produce a final KML file with these. The end result is a folder with the final KML file (w/o coordinates) and an additional 'img' folder containing (resized or not) geo-located images to be accessed via a GIS software of preference. Cuyrrently, this works with GoogleEarth. 
